@@ -1,0 +1,52 @@
+* {
+    background-color: bisque;
+    color: rgb(76, 76, 76);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input::placeholder {
+    color: darkgrey;
+}
+
+form {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.all_problems {
+    border-collapse: collapse;
+    text-align: center;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.all_problems td, .all_problems th {
+    border: 1px solid black;
+    padding-inline: 10px;
+}
